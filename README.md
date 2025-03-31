@@ -3,9 +3,9 @@
 ### This repository contains the code for the paper submitted to IROS 2025
 
 <div align="center">
-  <video src="./media/visualization/half_tshirt_01.mp4" autoplay controls muted loop playsinline width="30%"></video>
-  <video src="./media/visualization/75half_disk_01.mp4" autoplay controls muted loop playsinline width="30%"></video>
-  <video src="./media/visualization/50diagonalHalf_napkin_01.mp4" autoplay controls muted loop playsinline width="30%"></video>
+  <img src="./media/visualization/half_tshirt_01.gif" width="30%">
+  <img src="./media/visualization/75half_disk_01.gif" width="30%">
+  <img src="./media/visualization/50diagonalHalf_napkin_01.gif" width="30%">
 </div>
 
 ## Getting Started
@@ -43,9 +43,9 @@ This will create an animation of how the dGLI disk evolves with folds. The anima
 ### CloSE representation is continuous
 <!-- Put gifs here like done at the start. Maybe the start can be replaced by the pull figure -->
 <div align="center">
-  <video src="./media/continuity/Cloth_1.mp4" autoplay controls muted loop playsinline width="30%"></video>
-  <video src="./media/continuity/Tshirt_3.mp4" autoplay controls muted loop playsinline width="30%"></video>
-  <video src="./media/continuity/Tshirt_1.mp4" autoplay controls muted loop playsinline width="30%"></video>
+  <img src="./media/continuity/Cloth_1.gif" width="30%">
+  <img src="./media/continuity/Tshirt_3.gif" width="30%">
+  <img src="./media/continuity/Tshirt_1.gif" width="30%">
 </div>
 
 ```
