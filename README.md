@@ -1,6 +1,4 @@
-# CloSE: A Compact Shape- and Orientation-Agnostic Cloth State Representation
-
-### This repository contains the code for the paper submitted to IROS 2025
+# CloSE: A Geometric Shape-Agnostic Cloth State Representation
 
 <div align="center">
   <img src="./media/visualization/half_tshirt_01.gif" width="30%">
@@ -23,7 +21,7 @@ pip install -e .
 ```
 
 ## Download Dataset
-We have created a small cloth folding dataset using MATLAB which can be downloaded from [here](https://drive.google.com/drive/folders/1Cnfgw4cZaeS2bdJCLvTXuPjivlGwuTWo?usp=sharing)
+We have created a small cloth folding dataset using MATLAB which can be downloaded from [here]([https://drive.google.com/drive/folders/1Cnfgw4cZaeS2bdJCLvTXuPjivlGwuTWo?usp=sharing](https://huggingface.co/datasets/anonymousresearcher217/CloSE-representation/tree/main))
 The code assumes that the dataset is stored in the folder Dataset
 
 ## Examples
@@ -67,6 +65,4 @@ python Examples/get_semantic_label.py --filePath="Dataset/dataset_MATLAB/bottomT
 ```
 python Examples/get_plan.py
 ```
-optionally, you can add the `--filePath` and The goal fold location with `--goal=[f_1,f_2]` where the array [$f_1$, $f_2$] indicates the goal fold location on the CloSE representation.
-
-For more information refer to the paper website at [close-representation](https://jaykamat.me/close-representation)
+optionally, you can add the `--filePath` and The goal fold location with `--goal=[f_1,f_2]` where the array [$f_1$ , $f_2$] indicates the goal fold location on the CloSE representation.
