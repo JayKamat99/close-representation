@@ -69,7 +69,7 @@ with mp.Pool(int(mp.cpu_count()/2)) as pool:
 	# Convert images to 1080p MP4 using ffmpeg
 	fps = 30  # Smooth animation
 	ffmpeg_cmd = [
-			"ffmpeg", "-framerate", str(fps), "-i", f"{path}/Images/{get_filename()}/frame_%04d.png",
+			"ffmpeg", "-framerate", str(fps), "-i", f"{path_images}/frame_%04d.png",
 			"-c:v", "libx264", "-preset", "slow", "-crf", "18", "-b:v", "8M",
 			"-pix_fmt", "yuv420p", "-vf", "scale=1920:1080", output_file
 	]
